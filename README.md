@@ -18,7 +18,10 @@ Simply include the `tmux` recipe.
 
 This cookbook depends on this [libevent cookbook](https://github.com/tk0miya/chef-libevent).
 If you reference this tmux cookbook in your chef configuration, you should add that cookbook
-first.
+first. For example, a snippet from a Berksfile would look like this:
+
+    cookbook 'libevent', :git => "git://github.com/tk0miya/chef-libevent.git"
+    cookbook 'tmux', :git => "git://github.com/keenlabs/chef-tmux.git"
 
 # Try it out with Vagrant
 
