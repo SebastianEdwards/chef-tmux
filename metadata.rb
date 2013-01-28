@@ -1,0 +1,6 @@
+name "tmux"
+version "0.0.1"
+maintainer "Josh Dzielak"
+maintainer_email "josh@keen.io"
+license "MIT"
+description "Installs libevent2 and tmux <= 1.7"
